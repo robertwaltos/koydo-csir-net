@@ -1,0 +1,45 @@
+// CSIR NET Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM056",
+  slug: "csir-net",
+  name: "CSIR NET",
+  fullName: "CSIR NET",
+  alias: "CSIR NET",
+  family: "NTA",
+  category: "Eligibility",
+  subcategory: "Science lectureship/PhD",
+  country: "India",
+  region: "South Asia",
+  languages: ["English","Hindi"],
+  estimatedAnnualTakers: "varies",
+  testingWindow: "Jun/Dec",
+  schedulePattern: "2 cycles/year",
+  ageGroup: "21-35",
+  targetUser: "Science graduate",
+  delivery: "Computer-based",
+  questionTypes: ["MCQ"],
+  adaptivity: "Linear",
+  sections: "Science domain",
+  scoringMode: "Cutoff",
+  essayOrSpeaking: "No",
+  ipRisk: "Low",
+  contentReuse: "science_subjects",
+  uiEngine: "objective_subject_mix",
+  monetizationPotential: "Low",
+  tier: "Tier 5",
+  launchWave: "Wave 7",
+  themeColor: "#8B5CF6",
+  themeColorDark: "#7C3AED",
+  localizationComplexity: "Low",
+  offlineNeeded: false,
+  mobileFirst: true,
+  locale: "en",
+  isRTL: false,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
